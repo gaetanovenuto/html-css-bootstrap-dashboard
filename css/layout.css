@@ -1,13 +1,31 @@
 /*************************************************** 
     HEADER SECTION
 ****************************************************/
+html {
+    overflow: hidden;
+}
 
+header .mobile-logo img {
+    max-width: 75px;
+}
+
+header .desktop-logo img {
+    max-width: 150px;
+}
+
+.dropdown .btn {
+    color: var(--bs-warning);
+}
 
 
 /*************************************************** 
     MAIN SECTION
 ****************************************************/
-
+main .row aside {
+    background-image: url(../img/sidebar-bg.png);
+    min-height: 1200px;
+    background-color: #051E34;
+}
 
 
 /*************************************************** 
@@ -52,7 +70,11 @@
     LARGE (lg) (>992px)
 **********************/
 @media screen and (min-width: 992px) {
-    
+    header .mobile-logo {
+        display: none;
+    }
+
+
 }
 
 

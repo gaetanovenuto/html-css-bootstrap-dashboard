@@ -17,19 +17,115 @@
         <!-- CSS -->
         <link rel="stylesheet" href="css/layout.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/framework12col.css">
     </head>
     <body>
 
         <!-- header -->
         <header>
-                HEADER
+                <div class="row align-items-center d-flex justify-content-between my-2 sticky-top">
+                    <div class="col-sm-2 col-sm-auto mobile-logo">
+                        <a href="">
+                            <img src="img/mobile-logo.png" alt="Boolean">
+                        </a>
+                    </div>
+                    <div class="col-lg-auto desktop-logo d-none d-lg-block ps-4">
+                        <a href="">
+                            <img src="img/logo.svg" alt="Boolean">
+                        </a>
+                    </div>
+                    <form class="col-sm-8 col-sm-8 col-lg-8 search-bar">
+                        <div class="row search-bg align-items-center rounded">
+                            <div class="col-1">
+                                <i class="bi bi-search"></i>
+                            </div>
+                            <div class="col-11">
+                                <input type="search" placeholder="Prova a cercare: Lezioni di Laravel" class="w-100 py-2 px-1 search-bg border-0 focus-ring border-opacity-0 shadow-none">
+                            </div>
+                        </div>
+                    </form>
+                    <div class="col-sm-2 col-sm-auto col-lg-2 d-flex justify-content-between">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-lg-9 d-flex justify-content-between d-none d-lg-block p-0">
+                                <button type="button" class="btn fs-4 me-0 p-1">
+                                    <i class="bi bi-list-ul"></i>
+                                </button>
+                                <button type="button" class="btn fs-4 me-0 p-1">
+                                    <i class="bi bi-question-circle-fill"></i>
+                                </button>
+                                <button type="button" class="btn fs-4 me-0 p-1">
+                                    <i class="bi bi-three-dots-vertical"></i>
+                                </button>
+                            </div>
+                            <div class="dropdown col-lg-3">
+                                <button class="btn fs-4 me-0 p-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="bi bi-bell-fill"></i>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Profilo
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Fatturazione
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">
+                                            Logout
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </header>
         <!-- /header -->
 
         <!-- main -->
         <main>
-                MAIN
+            <div class="row">
+                <aside class="col-2">
+                    <nav class="navbar mh-100" data-bs-theme="dark">
+                        <div class="container-fluid">
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="text-white">
+                                
+                            </span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Dropdown
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </aside>
+                <div class="main-section col-10">
+
+                </div>
+            </div>
         </main>
         <!-- /main -->
 
