@@ -2,7 +2,7 @@
     HEADER SECTION
 ****************************************************/
 html {
-    overflow: hidden;
+    overflow-x: hidden,
 }
 
 
@@ -24,7 +24,7 @@ header .desktop-logo img {
 ****************************************************/
 main .row aside {
     background-image: url(../img/sidebar-bg.png);
-    height: 1300px;
+    height: calc(100vh - 46px);
     min-width: 100px;
     max-width: 200px;
 }
@@ -37,6 +37,10 @@ main .row aside button:hover {
     transform: scale(1.1);
 }
 
+.main-header {
+    background-color: #1B72E8;
+    height: 300px;
+}
 
 /*************************************************** 
     FOOTER SECTION

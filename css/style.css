@@ -1,7 +1,23 @@
 /*************************************************** 
     UTILITIES
 ****************************************************/
+.general-button {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 6px;
+    border: 2px solid white;
+}
 
+.little-button {
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+    border: none;
+}
+
+.border-radius {
+    border-radius: 50%;
+}
 /********************* 
     BACKGROUND COLORS
 **********************/
