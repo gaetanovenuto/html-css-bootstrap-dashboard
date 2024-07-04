@@ -5,6 +5,7 @@ html {
     overflow: hidden;
 }
 
+
 header .mobile-logo img {
     max-width: 75px;
 }
@@ -23,8 +24,17 @@ header .desktop-logo img {
 ****************************************************/
 main .row aside {
     background-image: url(../img/sidebar-bg.png);
-    min-height: 1200px;
-    background-color: #051E34;
+    height: 1300px;
+    min-width: 100px;
+    max-width: 200px;
+}
+
+.icon-width {
+    width: 50px;
+}
+
+main .row aside button:hover {
+    transform: scale(1.1);
 }
 
 

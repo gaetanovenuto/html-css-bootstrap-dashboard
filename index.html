@@ -22,7 +22,7 @@
 
         <!-- header -->
         <header>
-                <div class="row align-items-center d-flex justify-content-between my-2 sticky-top">
+                <div class="row container-fluid align-items-center d-flex justify-content-between my-2 sticky-top">
                     <div class="col-sm-2 col-sm-auto mobile-logo">
                         <a href="">
                             <img src="img/mobile-logo.png" alt="Boolean">
@@ -87,39 +87,56 @@
         <!-- main -->
         <main>
             <div class="row">
-                <aside class="col-2">
-                    <nav class="navbar mh-100" data-bs-theme="dark">
-                        <div class="container-fluid">
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="text-white">
-                                
-                            </span>
-                          </button>
-                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                              <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                              </li>
-                              <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Dropdown
-                                </a>
-                                <ul class="dropdown-menu">
-                                  <li><a class="dropdown-item" href="#">Action</a></li>
-                                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                                  <li><hr class="dropdown-divider"></li>
-                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                              </li>
-                            </ul>
-                          </div>
+                <aside class="col-2 aside-bg">
+                    <nav class="navbar mh-100 row d-flex flex-column align-items-center p-4" data-bs-theme="dark">
+                        <div class="col-12">
+                            <button class="border-0 shadow-none bg-transparent text-left" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
+                                <div class="row d-flex justify-content-center text-white fs-5 py-2">
+                                    <div class="col-6 icon-width">
+                                        <i class="fa-solid fa-house"></i>
+                                    </div>
+                                    <div class="col-6 bg-transparent d-flex justify-content-center d-none d-lg-block">
+                                        Home
+                                    </div>
+                                </div>
+                            </button>
                         </div>
+                        <div class="col-12">
+                            <button class="border-0 shadow-none bg-transparent text-left" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
+                                <div class="row d-flex justify-content-center text-white fs-5 py-2">
+                                    <div class="col-6 icon-width">
+                                        <i class="fa-solid fa-chart-simple"></i>
+                                    </div>
+                                    <div class="col-6 bg-transparent d-flex justify-content-center d-none d-lg-block">                                
+                                        Stats                           
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="col-12">
+                            <button class="border-0 shadow-none bg-transparent text-left" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
+                                <div class="row d-flex justify-content-center text-white fs-5 py-2">
+                                    <div class="col-6 icon-width">
+                                        <i class="fa-solid fa-signal"></i>
+                                    </div>
+                                    <div class="col-6 bg-transparent d-flex justify-content-center d-none d-lg-block">                                    
+                                        Signals                  
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="col-12 fixed-bottom py-4">
+                            <button class="border-0 shadow-none bg-transparent text-left" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
+                                <div class="row d-flex justify-content-center text-white fs-5">
+                                    <div class="col-6 icon-width">
+                                        <i class="fa-solid fa-gear"></i>
+                                    </div>
+                                    <div class="col-6 bg-transparent d-flex justify-content-center d-none d-lg-block">                                    
+                                        Admin
+                                    </div>
+                                </div>
+                            </button>
+                        </div>                        
                       </nav>
                 </aside>
                 <div class="main-section col-10">
