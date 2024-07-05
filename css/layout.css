@@ -54,11 +54,10 @@ main .row aside button:hover {
 
 .main-section {
     width: calc(100vw - 200px);
+    height: calc(100vh - 100px)
 }
 
-.main-middle-section {
-    height: 1300px;
-}
+
 
 
 
