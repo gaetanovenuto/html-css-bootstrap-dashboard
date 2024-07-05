@@ -40,8 +40,8 @@ main .row aside {
     width: 25px;
 }
 
-main .row aside button:hover {
-    transform: scale(1.1);
+.navbar button:hover {
+    background-color: rgba(99, 99, 99, 0.5) !important;
 }
 
 .main-header {
@@ -87,7 +87,13 @@ main .row aside button:hover {
     SMALL (sm) (>576px)
 **********************/
 @media screen and (min-width: 576px) {
+    main .row aside {
+        width: 200px;
+    }
 
+    header .mobile-logo {
+        display: none;
+    }
 }
 
 
@@ -109,10 +115,11 @@ main .row aside button:hover {
         display: none;
     }
 
-    main .row aside {
-        width: 200px;
-    }
+    
 
+    #offcanvasRight {
+        width: 50% !important;
+    }
 
 }
 
