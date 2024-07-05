@@ -1,10 +1,14 @@
 /*************************************************** 
     HEADER SECTION
 ****************************************************/
-html {
-    overflow-x: hidden,
+body {
+    overflow: hidden;
 }
 
+header {
+    height: 10vh;
+    width: 100vw;
+}
 
 header .mobile-logo img {
     max-width: 75px;
@@ -24,13 +28,16 @@ header .desktop-logo img {
 ****************************************************/
 main .row aside {
     background-image: url(../img/sidebar-bg.png);
-    height: calc(100vh - 46px);
-    min-width: 100px;
-    max-width: 200px;
+    height: 90vh;
+    width: 100px;
 }
 
-.icon-width {
+.icon-width-50 {
     width: 50px;
+}
+
+.icon-width-25 {
+    width: 25px;
 }
 
 main .row aside button:hover {
@@ -40,6 +47,22 @@ main .row aside button:hover {
 .main-header {
     background-color: #1B72E8;
 }
+
+.table-fx-height {
+    max-height: 500px;
+}
+
+.main-section {
+    width: calc(100vw - 200px);
+}
+
+.main-middle-section {
+    height: 1300px;
+}
+
+
+
+
 
 /*************************************************** 
     FOOTER SECTION
@@ -85,6 +108,10 @@ main .row aside button:hover {
 @media screen and (min-width: 992px) {
     header .mobile-logo {
         display: none;
+    }
+
+    main .row aside {
+        width: 200px;
     }
 
 
