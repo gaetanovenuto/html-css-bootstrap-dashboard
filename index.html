@@ -87,9 +87,9 @@
         <!-- main -->
         <main>
             <div class="container-fluid">
-                <div class="row g-0">
+                <div class="row">
                     <aside class="aside-bg">
-                        <nav class="navbar h-100 row d-flex flex-column align-items-center p-4 justify-content-between" data-bs-theme="dark">
+                        <nav class="navbar h-100 row d-flex flex-column align-items-center p-auto justify-content-between m-auto" data-bs-theme="dark">
                             <div class="header-aside">
                                 <div class="row d-flex justify-content-center  text-white fs-5 py-2">
                                     <button class="border-0 shadow-none bg-transparent  d-flex justify-content-between" type="button">
@@ -285,324 +285,435 @@
                         </section>
                         <section class="main-middle-section">
                             <div class="container-fluid">
-                                <div class="row g-0">
+                                <div class="row justify-content-between">
                                     <div class="col-12 col-lg-8">
-                                        <div class="card m-3">
-                                            <div class="card-header">
-                                            Prossime classi
-                                            </div>
-                                            <div class="card-main table-fx-height overflow-y-auto">
-                                                <table class="table">
-                                                    <thead>
-                                                        <tr class="sticky-top">
-                                                            <th scope="col">
-                                                                Nome
-                                                            </th>
-                                                            <th scope="col">
-                                                                Data inizio
-                                                            </th>
-                                                            <th scope="col">
-                                                                ROI
-                                                            </th>
-                                                            <th scope="col">
-                                                                Stato
-                                                            </th>
-                                                            <th scope="col">
-                                                                Azioni
-                                                            </th>
+                                        <div class="row px-2 me-auto">
+                                            <div class="col-12 card m-3 p-0">
+                                                <div class="card-header">
+                                                Prossime classi
+                                                </div>
+                                                <div class="card-main table-fx-height overflow-y-auto">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr class="sticky-top">
+                                                                <th scope="col">
+                                                                    Nome
+                                                                </th>
+                                                                <th scope="col">
+                                                                    Data inizio
+                                                                </th>
+                                                                <th scope="col">
+                                                                    ROI
+                                                                </th>
+                                                                <th scope="col">
+                                                                    Stato
+                                                                </th>
+                                                                <th scope="col">
+                                                                    Azioni
+                                                                </th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
+                                                                Classe 75
+                                                            </td>
+                                                            <td>
+                                                                15 Feb 2021
+                                                            </td>
+                                                            <td>
+                                                                20%
+                                                            </td>
+                                                            <td>
+                                                                <span class="badge text-bg-success">
+                                                                    Done
+                                                                </span>
+                                                            </td>
+                                                            <td class="m-1">
+                                                                <button type="button" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                </button>
+                                                                <button type="reset" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-trash-fill"></i>
+                                                                </button>
+                                                            </td>
                                                         </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                    <tr>
-                                                        <td>
-                                                            <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
-                                                            Classe 75
-                                                        </td>
-                                                        <td>
-                                                            15 Feb 2021
-                                                        </td>
-                                                        <td>
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge text-bg-success">
-                                                                Done
-                                                            </span>
-                                                        </td>
-                                                        <td class="m-1">
-                                                            <button type="button" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-pencil-fill"></i>
-                                                            </button>
-                                                            <button type="reset" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-trash-fill"></i>
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
-                                                            Classe 76
-                                                        </td>
-                                                        <td>
-                                                            16 Feb 2021
-                                                        </td>
-                                                        <td>
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge text-bg-success">
-                                                                Done
-                                                            </span>
-                                                        </td>
-                                                        <td class="m-1">
-                                                            <button type="button" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-pencil-fill"></i>
-                                                            </button>
-                                                            <button type="reset" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-trash-fill"></i>
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
-                                                            Classe 77
-                                                        </td>
-                                                        <td>
-                                                            17 Feb 2021
-                                                        </td>
-                                                        <td>
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge text-bg-warning text-white">
-                                                                Process
-                                                            </span>
-                                                        </td>
-                                                        <td class="m-1">
-                                                            <button type="button" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-pencil-fill"></i>
-                                                            </button>
-                                                            <button type="reset" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-trash-fill"></i>
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
-                                                            Classe 78
-                                                        </td>
-                                                        <td>
-                                                            18 Feb 2021
-                                                        </td>
-                                                        <td>
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge text-bg-success">
-                                                                Done
-                                                            </span>
-                                                        </td>
-                                                        <td class="m-1">
-                                                            <button type="button" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-pencil-fill"></i>
-                                                            </button>
-                                                            <button type="reset" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-trash-fill"></i>
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
-                                                            Classe 79
-                                                        </td>
-                                                        <td>
-                                                            19 Feb 2021
-                                                        </td>
-                                                        <td>
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge text-bg-danger">
-                                                                Failed
-                                                            </span>
-                                                        </td>
-                                                        <td class="m-1">
-                                                            <button type="button" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-pencil-fill"></i>
-                                                            </button>
-                                                            <button type="reset" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-trash-fill"></i>
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
-                                                            Classe 80
-                                                        </td>
-                                                        <td>
-                                                            20 Feb 2021
-                                                        </td>
-                                                        <td>
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge text-bg-success">
-                                                                Done
-                                                            </span>
-                                                        </td>
-                                                        <td class="m-1">
-                                                            <button type="button" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-pencil-fill"></i>
-                                                            </button>
-                                                            <button type="reset" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-trash-fill"></i>
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
-                                                            Classe 81
-                                                        </td>
-                                                        <td>
-                                                            21 Feb 2021
-                                                        </td>
-                                                        <td>
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge text-bg-danger">
-                                                                Failed
-                                                            </span>
-                                                        </td>
-                                                        <td class="m-1">
-                                                            <button type="button" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-pencil-fill"></i>
-                                                            </button>
-                                                            <button type="reset" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-trash-fill"></i>
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
-                                                            Classe 82
-                                                        </td>
-                                                        <td>
-                                                            22 Feb 2021
-                                                        </td>
-                                                        <td>
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge text-bg-success">
-                                                                Done
-                                                            </span>
-                                                        </td>
-                                                        <td class="m-1">
-                                                            <button type="button" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-pencil-fill"></i>
-                                                            </button>
-                                                            <button type="reset" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-trash-fill"></i>
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
-                                                            Classe 83
-                                                        </td>
-                                                        <td>
-                                                            23 Feb 2021
-                                                        </td>
-                                                        <td>
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge text-bg-success">
-                                                                Done
-                                                            </span>
-                                                        </td>
-                                                        <td class="m-1">
-                                                            <button type="button" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-pencil-fill"></i>
-                                                            </button>
-                                                            <button type="reset" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-trash-fill"></i>
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
-                                                            Classe 84
-                                                        </td>
-                                                        <td>
-                                                            24 Feb 2021
-                                                        </td>
-                                                        <td>
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge text-bg-danger">
-                                                                Failed
-                                                            </span>
-                                                        </td>
-                                                        <td class="m-1">
-                                                            <button type="button" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-pencil-fill"></i>
-                                                            </button>
-                                                            <button type="reset" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-trash-fill"></i>
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
-                                                            Classe 130
-                                                        </td>
-                                                        <td>
-                                                            29 May 2024
-                                                        </td>
-                                                        <td>
-                                                            20%
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge text-bg-danger">
-                                                                Failed
-                                                            </span>
-                                                        </td>
-                                                        <td class="m-1">
-                                                            <button type="button" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-pencil-fill"></i>
-                                                            </button>
-                                                            <button type="reset" class="btn btn-outline-secondary">
-                                                                <i class="bi bi-trash-fill"></i>
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-                                                    
-                                                    </tbody>
-                                                </table>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
+                                                                Classe 76
+                                                            </td>
+                                                            <td>
+                                                                16 Feb 2021
+                                                            </td>
+                                                            <td>
+                                                                20%
+                                                            </td>
+                                                            <td>
+                                                                <span class="badge text-bg-success">
+                                                                    Done
+                                                                </span>
+                                                            </td>
+                                                            <td class="m-1">
+                                                                <button type="button" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                </button>
+                                                                <button type="reset" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-trash-fill"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
+                                                                Classe 77
+                                                            </td>
+                                                            <td>
+                                                                17 Feb 2021
+                                                            </td>
+                                                            <td>
+                                                                20%
+                                                            </td>
+                                                            <td>
+                                                                <span class="badge text-bg-warning text-white">
+                                                                    Process
+                                                                </span>
+                                                            </td>
+                                                            <td class="m-1">
+                                                                <button type="button" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                </button>
+                                                                <button type="reset" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-trash-fill"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
+                                                                Classe 78
+                                                            </td>
+                                                            <td>
+                                                                18 Feb 2021
+                                                            </td>
+                                                            <td>
+                                                                20%
+                                                            </td>
+                                                            <td>
+                                                                <span class="badge text-bg-success">
+                                                                    Done
+                                                                </span>
+                                                            </td>
+                                                            <td class="m-1">
+                                                                <button type="button" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                </button>
+                                                                <button type="reset" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-trash-fill"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
+                                                                Classe 79
+                                                            </td>
+                                                            <td>
+                                                                19 Feb 2021
+                                                            </td>
+                                                            <td>
+                                                                20%
+                                                            </td>
+                                                            <td>
+                                                                <span class="badge text-bg-danger">
+                                                                    Failed
+                                                                </span>
+                                                            </td>
+                                                            <td class="m-1">
+                                                                <button type="button" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                </button>
+                                                                <button type="reset" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-trash-fill"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
+                                                                Classe 80
+                                                            </td>
+                                                            <td>
+                                                                20 Feb 2021
+                                                            </td>
+                                                            <td>
+                                                                20%
+                                                            </td>
+                                                            <td>
+                                                                <span class="badge text-bg-success">
+                                                                    Done
+                                                                </span>
+                                                            </td>
+                                                            <td class="m-1">
+                                                                <button type="button" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                </button>
+                                                                <button type="reset" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-trash-fill"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
+                                                                Classe 81
+                                                            </td>
+                                                            <td>
+                                                                21 Feb 2021
+                                                            </td>
+                                                            <td>
+                                                                20%
+                                                            </td>
+                                                            <td>
+                                                                <span class="badge text-bg-danger">
+                                                                    Failed
+                                                                </span>
+                                                            </td>
+                                                            <td class="m-1">
+                                                                <button type="button" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                </button>
+                                                                <button type="reset" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-trash-fill"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
+                                                                Classe 82
+                                                            </td>
+                                                            <td>
+                                                                22 Feb 2021
+                                                            </td>
+                                                            <td>
+                                                                20%
+                                                            </td>
+                                                            <td>
+                                                                <span class="badge text-bg-success">
+                                                                    Done
+                                                                </span>
+                                                            </td>
+                                                            <td class="m-1">
+                                                                <button type="button" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                </button>
+                                                                <button type="reset" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-trash-fill"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
+                                                                Classe 83
+                                                            </td>
+                                                            <td>
+                                                                23 Feb 2021
+                                                            </td>
+                                                            <td>
+                                                                20%
+                                                            </td>
+                                                            <td>
+                                                                <span class="badge text-bg-success">
+                                                                    Done
+                                                                </span>
+                                                            </td>
+                                                            <td class="m-1">
+                                                                <button type="button" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                </button>
+                                                                <button type="reset" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-trash-fill"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
+                                                                Classe 84
+                                                            </td>
+                                                            <td>
+                                                                24 Feb 2021
+                                                            </td>
+                                                            <td>
+                                                                20%
+                                                            </td>
+                                                            <td>
+                                                                <span class="badge text-bg-danger">
+                                                                    Failed
+                                                                </span>
+                                                            </td>
+                                                            <td class="m-1">
+                                                                <button type="button" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                </button>
+                                                                <button type="reset" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-trash-fill"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <img src="img/class-avatar.jpg" class="icon-width-25" alt="Class">
+                                                                Classe 130
+                                                            </td>
+                                                            <td>
+                                                                29 May 2024
+                                                            </td>
+                                                            <td>
+                                                                20%
+                                                            </td>
+                                                            <td>
+                                                                <span class="badge text-bg-danger">
+                                                                    Failed
+                                                                </span>
+                                                            </td>
+                                                            <td class="m-1">
+                                                                <button type="button" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-pencil-fill"></i>
+                                                                </button>
+                                                                <button type="reset" class="btn btn-outline-secondary">
+                                                                    <i class="bi bi-trash-fill"></i>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        
+                                                        </tbody>
+                                                    </table>
+                                                </div>
                                             </div>
+                                            <div class="col-12 card m-3 p-0">
+                                                <div class="card-header h4">
+                                                F.A.Q.
+                                                </div>
+                                                <div class="card-main">
+                                                    <ul class="list-group list-group-flush">
+                                                        <li class="list-group-item">
+                                                            <div class="row d-flex justify-content-between py-2">
+                                                                <div class="col-auto">
+                                                                    Come aggiungere un nuovo studente?
+                                                                </div>
+                                                                <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseNewStudent" aria-expanded="false" aria-controls="collapseExample" class="angle-down border-0 bg-transparent col-auto">
+                                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                                </button>
+                                                            </div>
+                                                            <div class="row collapse border-top py-2" id="collapseNewStudent">
+                                                                <div class="col-auto">
+                                                                    Clicca sul pulsante "Nuovo Studente".
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="row d-flex justify-content-between py-2">
+                                                                <div class="col-auto">
+                                                                    Come posso accedere alle informazioni del mio account?
+                                                                </div>
+                                                                <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseRingBell" aria-expanded="false" aria-controls="collapseRingBell" class="angle-down border-0 bg-transparent col-auto">
+                                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                                </button>
+                                                            </div>
+                                                            <div class="row collapse border-top py-2" id="collapseRingBell">
+                                                                <div class="col-auto">
+                                                                    Clicca sulla campanella in alto a destra.
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <div class="row d-flex justify-content-between py-2">
+                                                                <div class="col-auto">
+                                                                    Posso usare questa dashboard da mobile?
+                                                                </div>
+                                                                <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseMobile" aria-expanded="false" aria-controls="collapseMobile" class="angle-down border-0 bg-transparent col-auto">
+                                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                                </button>
+                                                            </div>
+                                                            <div class="row collapse border-top py-2" id="collapseMobile">
+                                                                <div class="col-auto">
+                                                                    Sì.
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>                                        
                                         </div>
                                     </div>
-                                    <div class="col-12 col-md-8">
-                                        FAQ
-                                    </div> 
-                                    <div class="col-12 col-md-4">
-                                        TODO
+                                    <div class="col-12 col-lg-4">
+                                        <div class="row px-2 me-auto">
+                                            <div class="col-12 card m-3 p-0">
+                                                <div class="card-header">
+                                                    To Do
+                                                </div>
+                                                <div class="card-main p-3">
+                                                    <div class="card">
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item">
+                                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                <label class="form-check-label px-2" for="flexCheckDefault">
+                                                                    Kickoff nuove classi
+                                                                </label>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                <label class="form-check-label px-2" for="flexCheckDefault">
+                                                                    Lezione su Bootstrap 5 in classe #75
+                                                                </label>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                                <label class="form-check-label px-2" for="flexCheckDefault">
+                                                                    Controllare username GitHub studenti
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 card m-3 p-0">
+                                                <div class="card-main p-3">
+                                                    <div class="card">
+                                                        <img src="img/stats.jpeg" alt="Stats">
+                                                        <ul class="list-group list-group-flush">
+                                                            <li class="list-group-item my-0 text-align-end">
+                                                                <div class="fs-16">
+                                                                    Utenti attivi
+                                                                </div>
+                                                                <p class="fs-12">
+                                                                    Lista degli utenti attivi in piattaforma nell'ultimo mese
+                                                                </p>
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                Gennaio: 1200
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                Febbraio: 800
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                Marzo: 1500
+                                                            </li>
+                                                            <li class="list-group-item">
+                                                                <a href="#" class="link-primary">
+                                                                    Visualizza report approfondito
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>                                              
-                                    <div class="col-12 col-md-4">
-                                        GRAPH STATS
-                                    </div>
                                 </div>
                                 
                             </div>
