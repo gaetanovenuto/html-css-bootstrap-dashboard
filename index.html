@@ -146,28 +146,115 @@
                 <div class="main-section col p-0">
                     <section class="main-header container-fluid flex-wrap">
                         <div class="row">
-                            <div class="col col-md-4 col-lg-2 d-flex align-items-center py-3 text-white w-100">
+                            <div class="col col-sm-4 col-lg-2 d-flex py-3 text-white order-sm-3 ">
                                 <div class="new-student">Nuovo studente</div>
-                                <button type="button" class="btn btn-outline-light fs-3 general-button d-flex align-items-center justify-content-center ms-5">+</button>
+                                <button type="button" class="btn btn-outline-light fs-3 general-button d-flex align-items-center justify-content-center ms-5" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+                                <div class="offcanvas w-100 offcanvas-end " tabindex="1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                      <h5 id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <form>
+                                            <div class="row">
+                                                <div class="mb-3 col-6">
+                                                    <label for="formGroupExampleInput" class="form-label ">Nome*</label>
+                                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Inserisci il nome">
+                                                </div>
+                                                <div class="mb-3 col-6">
+                                                    <label for="formGroupExampleInput2" class="form-label">Cognome*</label>
+                                                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Inserisci il cognome" required>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="mb-3 col-6">
+                                                    <label class="form-label" for="autoSizingInputGroup">Email*</label>
+                                                    <div class="input-group">
+                                                      <div class="input-group-text">@</div>
+                                                      <input type="email" class="form-control" id="autoSizingInputGroup" placeholder="Inserisci la tua mail" required>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3 col-6">
+                                                    <label for="formGroupExampleInput2" class="form-label">Password*</label>
+                                                    <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="Inserisci la tua password" required>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="mb-3 col-12">
+                                                    <label for="formGroupExampleInput" class="form-label ">Indirizzo*</label>
+                                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Inserisci l'indirizzo" required>
+                                                </div>                                              
+                                            </div>
+                                            <div class="row">
+                                                <div class="mb-3 col-6">
+                                                    <label for="formGroupExampleInput" class="form-label ">Città*</label>
+                                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Inserisci la città" required>
+                                                </div>   
+                                                <div class="col-4">
+                                                    <label class="form-label" for="autoSizingSelect">Stato*</label>
+                                                    <select class="form-select" id="autoSizingSelect" required>
+                                                      <option selected disabled>Scegli...</option>
+                                                      <option value="Roma">Roma</option>
+                                                      <option value="Napoli">Napoli</option>
+                                                      <option value="Torino">Torino</option>
+                                                    </select>
+                                                  </div>  
+                                                  <div class="mb-3 col-2">
+                                                    <label for="formGroupExampleInput" class="form-label ">CAP*</label>
+                                                    <input type="number" class="form-control" id="formGroupExampleInput" placeholder="" required>
+                                                </div>                                           
+                                            </div>
+                                            <div class="row">
+                                                <div class="mb-3 col-12">
+                                                    <label for="formFile" class="form-label">Scegli file</label>
+                                                    <input class="form-control" type="file" id="formFile">
+                                                </div>                                              
+                                            </div>
+                                            <div class="row">
+                                                <div class="mb-3 col">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    <label class="form-check-label" for="flexCheckDefault" required>
+                                                        Seleziona per proseguire*
+                                                    </label>
+                                                </div>                                              
+                                            </div>
+                                            <div class="row justify-content-start">
+                                                <div class="mb-3 col-auto">
+                                                    <button type="submit" class="btn btn-primary">
+                                                        Salva
+                                                    </button>
+                                                </div>  
+                                                <div class="mb-3 col-auto">
+                                                    <button type="reset" class="btn btn-warning fw-bold">Svuota</button>
+                                                </div>                                             
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-auto fw-bold">
+                                                    Tutti i campi contrassegnati con * sono obbligatori.
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>                          
                             </div>
-                            <div class="col-12 col-md-4 col-lg-6 d-flex flex-column py-2 text-white my-1">    
+                            <div class="col-12 col-sm-4 col-lg-5 d-flex flex-column py-2 text-white order-sm-1">    
                                 <div class="row d-flex">                          
-                                    <div class="boolean-title col-3 fs-1">
+                                    <div class="boolean-title col-auto fs-2">
                                         Boolean              
                                     </div>
-                                    <span class="col-3 badge rounded-pill text-bg-dark bg-opacity-50 fw-normal m-2 align-self-end fs-6">
+                                    <div class="col-auto badge rounded-pill text-bg-dark bg-opacity-50 fw-normal m-2 align-self-end fs-6">
                                         Piano Blaze
-                                    </span>  
+                                    </div>  
                                 </div>
                                 <div class="row badges align-items-center">
-                                    <span class="col-3 badge rounded-pill text-bg-dark bg-opacity-50 fw-normal m-2  fs-6">
+                                    <div class="col-auto badge rounded-pill text-bg-dark bg-opacity-50 fw-normal m-2 px-3 fs-6">
                                         3 app
-                                    </span>
+                                    </div>
                                     <i class="fa-solid fa-angles-right text-white col-1"></i>                 
-                                    <button class="col-1 text-white badge rounded-pill text-bg-dark bg-opacity-50 fw-normal m-2 align-self-end fs-6 little-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                                    <button class="col-auto text-white badge rounded-pill text-bg-dark bg-opacity-50 fw-normal fs-6 little-button ms-3 d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
                                         +
                                     </button>
-                                    <div style="min-height: 20px;">
+                                    <div class="d-lg-none">
                                         <div class="collapse collapse-horizontal" id="collapseWidthExample">
                                             <div class="badge rounded-pill text-bg-dark bg-opacity-50 fw-normal m-2 align-self-end fs-6">
                                                 Boolean mobile app
@@ -180,7 +267,26 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="col-auto badge rounded-pill text-bg-dark bg-opacity-50 fw-normal m-2 align-self-end fs-6 d-none d-lg-block">
+                                        Boolean mobile app
+                                    </div>
+                                    <div class="col-auto badge rounded-pill text-bg-dark bg-opacity-50 fw-normal m-2 align-self-end fs-6 d-none d-lg-block">
+                                        Boolean web app
+                                    </div>
+                                    <div class="col-auto badge rounded-pill text-bg-dark bg-opacity-50 fw-normal m-2 align-self-end fs-6 d-none d-lg-block">
+                                        Boolean blog app
+                                    </div>                                 
                                 </div> 
+                            </div>
+                            <div class="col-12 col-sm-4 col-lg-4 d-flex flex-column py-2 text-white order-sm-2">
+                                <div class="row d-flex flex-column">                          
+                                    <div class="students-count col-auto fs-5">
+                                        Studenti online negli ultimi 30 minuti              
+                                    </div>
+                                    <div class="students-count col-auto fs-1">
+                                        125              
+                                    </div>
+                                </div>
                             </div>
                             
                         </div>
