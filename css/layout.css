@@ -57,9 +57,16 @@ main .row aside {
     height: calc(100vh - 100px)
 }
 
+.faq-hover:hover {
+    border: 2px solid rgba(58, 99, 211, 0.473);
+    background-color: rgba(72, 166, 253, 0.2);
+    border-radius: 2px;
+    cursor: pointer;
+}
 
-
-
+.negative-margin {
+    padding-left: 0px;
+}
 
 
 
